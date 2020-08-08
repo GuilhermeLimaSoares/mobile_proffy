@@ -1,16 +1,57 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    container: {
-        // padding: 40,
-        // backgroundColor: '#8257e5',
-    },
+  container: {
+    flex: 1,
+    backgroundColor: '#f0f0f7'
+  },
 
-    topBar: {
-        // flexDirection: 'row',
-        // alignItems: 'center',
-        // justifyContent: 'space-between'
-    }
+  teacherList: {
+    marginTop: -20,
+  },
+
+  searchForm: {
+    marginBottom: 8,
+  },
+
+  label: {
+    color: '#d4c2ff',
+    fontFamily: 'Poppins_400Regular'
+  },
+
+  input: {
+    height: 44,
+    backgroundColor: '#FFF',
+    borderRadius: 8,
+    justifyContent: 'center',
+    paddingHorizontal: 16,
+    marginTop: 4,
+    marginBottom: 16,
+  },
+
+  inputGroup: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+
+  inputBlock: {
+    width: '48%',
+  },
+
+  submitButton: {
+    backgroundColor: '#04d361',
+    height: 56,
+    borderRadius: 8,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  submitButtonText: {
+    color: '#FFF',
+    fontFamily: 'Archivo_700Bold',
+    fontSize: 16
+  }
 
 });
 
